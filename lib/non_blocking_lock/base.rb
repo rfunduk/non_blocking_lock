@@ -1,7 +1,5 @@
-
-
 module NonBlockingLock
-  class LockFailed < ActiveRecordError #:nodoc:
+  class LockFailed < ActiveRecord::ActiveRecordError #:nodoc:
   end
 
   module ClassMethods

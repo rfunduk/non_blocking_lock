@@ -4,7 +4,7 @@ require File.expand_path('../lib/non_blocking_lock/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors        = ["Ryan Funduk"]
   gem.email          = ["ryan.funduk@gmail.com"]
-  gem.description    = %q{A non_blocking_lock implementation for ActiveRecord adapters.}
+  gem.description    = %q{A non_blocking_lock implementation for ActiveRecord adapters (well, just Mysql2 right now).}
   gem.summary        = %q{}
   gem.homepage       = "http://github.com/rfunduk/non_blocking_lock"
 
